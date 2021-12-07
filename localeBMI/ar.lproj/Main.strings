@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "w"; ObjectID = "0A8-nV-3po"; */
+"0A8-nV-3po.text" = "w";
+
+/* Class = "UIButton"; configuration.title = "Calculate BMI"; ObjectID = "Frp-9g-YGI"; */
+"Frp-9g-YGI.configuration.title" = "Calculate BMI";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Frp-9g-YGI"; */
+"Frp-9g-YGI.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "h"; ObjectID = "kkh-P7-FDg"; */
+"kkh-P7-FDg.text" = "h";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sb1-bm-Wg5"; */
+"sb1-bm-Wg5.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wVV-2a-VSw"; */
+"wVV-2a-VSw.text" = "Label";
