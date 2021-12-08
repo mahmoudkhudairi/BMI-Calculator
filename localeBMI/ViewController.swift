@@ -105,8 +105,10 @@ class ViewController: UIViewController {
         if let weightText = weightTextField.text,
            let heightText = heightTextField.text{
             let calculationFormatter = NumberFormatter()
+            calculationFormatter.decimalSeparator = heightText.contains("٫") || heightText.contains(",") ? "," : "."
             // making sure to handle "," and "." based on the locale
             if let heightNumber = calculationFormatter.number(from: heightText), let weightNumber = calculationFormatter.number(from: weightText) {
+                print("HEllo")
                 let height = Double(truncating: heightNumber)
                 let weight = Double(truncating: weightNumber)
                 let bmi = weight / pow(height,2)
